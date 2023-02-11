@@ -1,0 +1,3 @@
+.section_cover_height {
+  height: calc((100vw - 96px)/1.6);
+}

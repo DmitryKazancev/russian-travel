@@ -1,0 +1,7 @@
+.section_cover {
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
