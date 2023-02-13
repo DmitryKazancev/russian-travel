@@ -9,3 +9,11 @@
   min-height: 152px;
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 720px) {
+  .cover__title {
+    font-size: 48px;
+    line-height: 1.09;
+    
+  }
+} 

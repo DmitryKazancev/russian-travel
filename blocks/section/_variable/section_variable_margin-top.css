@@ -6,3 +6,8 @@
     margin-top: 88px;
   }
 } 
+@media screen and (max-width: 720px) {
+  .section_variable_margin-top {
+    margin-top: 64px;
+  }
+} 
