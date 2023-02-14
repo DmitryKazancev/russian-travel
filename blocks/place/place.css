@@ -24,3 +24,15 @@
     margin-bottom: 65px;
   }
 } 
+@media screen and (max-width: 539px) {
+  .place {
+    grid-template-areas:
+    "title"
+    "website"
+    "image" 
+    "description";
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    margin-bottom: 50px;
+  }
+} 

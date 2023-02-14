@@ -9,7 +9,8 @@
   margin-bottom: 12px;
 }
 @media screen and (max-width: 867px) {
-  .lace__website_url-heading {
+  .place__website_url-heading {
     line-height: 1;
+    min-height: 12px;
   }
 } 

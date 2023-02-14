@@ -5,3 +5,9 @@
   justify-content: space-between;
   align-items: end;
 }
+@media screen and (max-width: 539px) {
+  .header {
+    margin-top: 16px;
+    align-items: center;
+  }
+} 

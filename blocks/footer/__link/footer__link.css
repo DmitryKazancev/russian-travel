@@ -9,11 +9,9 @@
   line-height: 1.13;
   margin-right: 18px;
 }
-
 .footer__link:last-of-type {
   margin-right: 0;
 }
-
 @media screen and (max-width: 720px) {
   .footer__link  {
     margin: 0;

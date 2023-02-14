@@ -33,11 +33,9 @@
   z-index: -1;
   transition: opacity 200ms ease-in-out;
 }
-
 .cover:hover:before {
   opacity: 0.8;
 }
-
 @media screen and (max-width: 867px) {
   .cover {
     margin-top: 2px;
