@@ -1,13 +1,13 @@
-.section-variable_margin-top {
+.section-top {
   margin-top: 92px;
 }
 @media screen and (max-width: 867px) {
-  .section-variable_margin-top {
+  .section-top {
     margin-top: 88px;
   }
 } 
 @media screen and (max-width: 720px) {
-  .section-variable_margin-top {
+  .section-top {
     margin-top: 64px;
   }
 } 

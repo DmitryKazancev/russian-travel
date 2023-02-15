@@ -5,8 +5,8 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/section-cover/section-cover.css);
 @import url(../blocks/section-cover/_height/section-cover_height.css);
-@import url(../blocks/section-variable/_margin-top/section-variable_margin-top.css);
-@import url(../blocks/section-variable/_padding-side/section-variable_padding-side.css);
+@import url(../blocks/section-top/section-top.css);
+@import url(../blocks/section-side/section-side.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
