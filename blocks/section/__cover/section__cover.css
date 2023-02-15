@@ -1,4 +1,4 @@
-.section_cover {
+.section__cover {
   box-sizing: border-box;
   max-width: 100%;
   position: relative;
@@ -8,7 +8,7 @@
   margin-right: 48px;
 }
 @media screen and (max-width: 1279px) {
-  .section_cover {
+  .section__cover {
     margin-left: 0;
     margin-right: 0;
   }
