@@ -3,8 +3,8 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/__cover/section__cover.css);
-@import url(../blocks/section/__cover/_height/section__cover_height.css);
+@import url(../blocks/section-cover/section-cover.css);
+@import url(../blocks/section-cover/_height/section-cover_height.css);
 @import url(../blocks/section/_variable-margin-top/section_variable-margin-top.css);
 @import url(../blocks/section/_variable-padding-side/section_variable-padding-side.css);
 @import url(../blocks/header/header.css);

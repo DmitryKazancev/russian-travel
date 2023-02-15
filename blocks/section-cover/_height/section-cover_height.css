@@ -1,8 +1,8 @@
-.section__cover_height {
+.section-cover_height {
   height: calc((100vw - 96px)/1.6);
 }
 @media screen and (max-width: 1279px) {
-  .section__cover_height {
+  .section-cover_height {
     height: calc(100vw/1.6);
   }
 }
