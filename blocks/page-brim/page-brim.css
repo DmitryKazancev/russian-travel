@@ -1,0 +1,16 @@
+.page-brim {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  @media screen and (max-width: 867px) {
+    .page-brim {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+  } 
+  @media screen and (max-width: 720px) {
+    .page-brim {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  } 

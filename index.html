@@ -9,26 +9,26 @@
 </head>
 
 <body class="root">
-    <div class="page">
+    <div class="page page-brim">
         <!--Section HEADER-->
-        <header class="header section">
+        <header class="header">
             <img src="./images/header-logo.svg" alt="Логотип Россия" class="header__logo">
-            <nav>
-                <a href="#" class="header__lang-link header__lang-link_type_underline">Ru</a>
-                <a href="#" class="header__lang-link">En</a>
-            </nav>
+            <ul class="header__lang-select">
+                <li class="header__lang-selected"><a href="#" class="header__lang-link header__lang-active" lang="ru">Ru</a></li>
+                <li class="header__lang-selected"><a href="#" class="header__lang-link" lang="en">En</a></li>
+            </ul>
         </header>
         <!--main content-->
         <main class="content">
             <!--Section LEAD-->
-            <section class="lead section section-side">
-                <h1 class="lead__title">Путешествия по России</h1>
+            <section class="lead section-side">
+                <h1 class="lead__title">Путешествия по&nbsp;России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <img src="./images/lead-polka.jpg" alt="Фото девушки на спальной полке вагона" class="lead__image">
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
             <!--Section INTRO  -->
-            <section class="intro section section-side section-top">
+            <section class="intro section-side section-top">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
                     планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
@@ -49,7 +49,7 @@
                 </ul>
             </section>
             <!--Section PHOTO-GRID  -->
-            <section class="photo-grid section section-top" aria-label="Секция с сеткой из фотографий">
+            <section class="photo-grid section-top" aria-label="Секция с сеткой из фотографий">
                 <img src="./images/photo-grid-train.jpg" alt="Окно вагона поезда" class="photo-grid__item">
                 <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Заснеженные горы" class="photo-grid__item">
                 <img src="./images/photo-grid-tuman.jpg" alt="Туман в поле" class="photo-grid__item">
@@ -67,7 +67,7 @@
                 <img src="./images/photo-grid-ergaki.jpg" alt="Вершины гор в тумане" class="photo-grid__item">
             </section>
             <!--Section PLACES  -->
-            <section class="places section section-side section-top">
+            <section class="places section-side section-top">
                 <ul class="places__list">
                     <li class="place">
                         <h2 class="place__title">Куршская коса</h2>
@@ -168,13 +168,11 @@
                     <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
                     <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала
                         на&nbsp;электричках.</p>
-                    <img src="./images/cover-trains.jpg" alt="Железнодорожная станция с грузовыми вагонами"
-                        class="cover__background">
                 </a>
             </section>
         </main>
         <!--Section FOOTER  -->
-        <footer class="footer section section-top">
+        <footer class="footer section-top">
             <nav>
                 <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
                 <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
@@ -182,7 +180,7 @@
                 <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
                 <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
             </nav>
-            <p class="footer__copyright">© 2023. Дмитрий Казанцев</p>
+            <p class="footer__copyright">&copy; 2023. Дмитрий Казанцев</p>
         </footer>
     </div>
 </body>
