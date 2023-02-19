@@ -1,0 +1,16 @@
+.content{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+}
+@media screen and (max-width: 867px) {
+    .content {
+        gap: 88px;
+    }
+  }
+  @media screen and (max-width: 539px) {
+    .content {
+        gap: 64px;
+    }
+  }

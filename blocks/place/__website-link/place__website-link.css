@@ -10,9 +10,5 @@
 }
 .place__website-link:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
-@media screen and (max-width: 867px) {
-  .place__website-link{
-    min-height: 22px;
-  }
-} 
