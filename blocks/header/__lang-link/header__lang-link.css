@@ -6,10 +6,10 @@
   color: #FFFFFF;
   text-decoration: none;
   transition: opacity 200ms ease-in-out;
+  cursor: pointer;
 }
 .header__lang-link:hover {
   opacity: 0.8;
-  cursor: pointer;
 }
 @media screen and (max-width: 539px) {
   .header__lang-link  {

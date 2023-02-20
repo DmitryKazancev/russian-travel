@@ -7,8 +7,8 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   transition: opacity 200ms ease-in-out;
+  cursor: pointer;
 }
 .place__website-link:hover {
   opacity: 0.8;
-  cursor: pointer;
 }

@@ -3,6 +3,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
+  list-style: none;
   gap: 80px;
 }
 @media screen and (max-width: 867px) {

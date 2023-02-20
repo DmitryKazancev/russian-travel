@@ -9,3 +9,9 @@
     gap: 25px;
   }
 } 
+@media screen and (max-width: 539px) {
+  .place__description{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

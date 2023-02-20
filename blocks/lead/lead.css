@@ -8,8 +8,26 @@
 }
 @media screen and (max-width: 1279px) {
   .lead {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .lead {
     margin-top: 48px;
     padding-left: 0;
     padding-right: 0;
+  }
+} 
+@media screen and (max-width: 867px) {
+  .lead {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+} 
+@media screen and (max-width: 720px) {
+  .lead {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 } 

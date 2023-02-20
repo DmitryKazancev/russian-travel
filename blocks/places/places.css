@@ -7,5 +7,25 @@
   .places {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+} 
+@media screen and (max-width: 867px) {
+  .places {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+} 
+@media screen and (max-width: 720px) {
+  .places {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+} 
+@media screen and (max-width: 539px) {
+  .places {
+    margin-left: 0;
+    margin-right: 0;
   }
 } 
